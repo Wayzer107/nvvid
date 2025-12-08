@@ -205,6 +205,8 @@ def generate_video(
 # =========================================================
 with gr.Blocks() as demo:
     
+
+
     gr.HTML("""
     <style>
         .gradio-container {
@@ -217,8 +219,12 @@ with gr.Blocks() as demo:
             🎬 NSFW Uncensored "Image to Video"
         </h1>
         <p style="color: #8b7b9b; font-size: 1rem;">Powered by Wan 2.2 Model</p>
+        <div style="margin-top: 10px;">
+            <a href="https://huggingface.co/spaces/Heartsync/FREE-NSFW-HUB" target="_blank"><img src="https://img.shields.io/static/v1?label=FREE&message=NSFW%20HUB&color=%230000ff&labelColor=%23800080&logo=huggingface&logoColor=white&style=for-the-badge" alt="badge"></a>
+        </div>
     </div>
     """)
+
 
     with gr.Row():
         with gr.Column(scale=1):
