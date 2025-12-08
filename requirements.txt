@@ -1,0 +1,17 @@
+streamlit
+git+https://github.com/huggingface/diffusers.git
+transformers
+accelerate
+safetensors
+sentencepiece
+peft
+ftfy
+imageio-ffmpeg
+opencv-python
+torchao==0.11.0
+gradio
+kernels
+torch
+spaces
+numpy
+Pillow
