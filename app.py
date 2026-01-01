@@ -232,7 +232,7 @@ with gr.Blocks() as demo:
               <img src="https://img.shields.io/static/v1?label=100% FREE&message=AI%20Playground&color=%230000ff&labelColor=%23800080&logo=huggingface&logoColor=%23ffa500&style=for-the-badge" alt="badge">
             </a>              
             <a href="https://ginigen.ai/en" target="_blank">
-                <img src="https://img.shields.io/static/v1?label=Powered%20by&message=Hogwarts%20BANANA&color=%230000ff&labelColor=%23800080&logo=huggingface&logoColor=white&style=for-the-badge" alt="badge">
+                <img src="https://img.shields.io/static/v1?label=Powered%20by&message=HUGwarts%20BANANA&color=%230000ff&labelColor=%23800080&logo=huggingface&logoColor=white&style=for-the-badge" alt="badge">
             </a>
         </div>
     </div>
