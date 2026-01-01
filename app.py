@@ -207,23 +207,34 @@ with gr.Blocks() as demo:
     
 
 
-    gr.HTML("""
-    <style>
-        .gradio-container {
-            background: linear-gradient(135deg, #fef9f3 0%, #f0e6fa 50%, #e6f0fa 100%) !important;
-        }
-        footer {display: none !important;}
-    </style>
-    <div style="text-align: center; margin-bottom: 20px;">
-        <h1 style="color: #6b5b7a; font-size: 2.2rem; font-weight: 700; margin-bottom: 0.3rem;">
-            🎬 NSFW Uncensored "Image to Video"
-        </h1>
-        <p style="color: #8b7b9b; font-size: 1rem;">Powered by Wan 2.2 Model</p>
-        <div style="margin-top: 10px;">
-            <a href="https://huggingface.co/spaces/Heartsync/FREE-NSFW-HUB" target="_blank"><img src="https://img.shields.io/static/v1?label=FREE&message=NSFW%20HUB&color=%230000ff&labelColor=%23800080&logo=huggingface&logoColor=white&style=for-the-badge" alt="badge"></a>
-        </div>
+gr.HTML("""
+<style>
+    .gradio-container {
+        background: linear-gradient(135deg, #fef9f3 0%, #f0e6fa 50%, #e6f0fa 100%) !important;
+    }
+    footer {display: none !important;}
+</style>
+
+<div style="text-align: center; margin-bottom: 20px;">
+    <h1 style="color: #6b5b7a; font-size: 2.2rem; font-weight: 700; margin-bottom: 0.3rem;">
+        🎬 NSFW Uncensored "Image to Video"
+    </h1>
+
+    <p style="color: #8b7b9b; font-size: 1rem;">
+        Powered by Wan 2.2 Model
+    </p>
+
+    <div style="margin-top: 12px; display: flex; justify-content: center; gap: 12px;">
+        <a href="https://huggingface.co/spaces/Heartsync/FREE-NSFW-HUB" target="_blank">
+            <img src="https://img.shields.io/static/v1?label=FREE&message=NSFW%20HUB&color=%230000ff&labelColor=%23800080&logo=huggingface&logoColor=white&style=for-the-badge" alt="badge">
+        </a>
+        <a href="https://ginigen.ai/en" target="_blank">
+            <img src="https://img.shields.io/static/v1?label=Powered%20by&message=Hogwarts%20BANANA&color=%230000ff&labelColor=%23800080&logo=huggingface&logoColor=white&style=for-the-badge" alt="badge">
+        </a>
     </div>
-    """)
+</div>
+""")
+
 
 
     with gr.Row():
