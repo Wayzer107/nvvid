@@ -20,8 +20,8 @@ import aoti
 # =========================================================
 # MODEL CONFIGURATION
 # =========================================================
-MODEL_ID = os.getenv("MODEL_ID")
-HF_TOKEN = os.environ.get("HF_TOKEN")
+MODEL_ID = "Wan-AI/Wan2.1-I2V-14B-480P"
+HF_TOKEN = None
 
 MAX_DIM = 832
 MIN_DIM = 480
